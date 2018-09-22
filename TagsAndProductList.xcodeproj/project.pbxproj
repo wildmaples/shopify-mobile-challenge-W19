@@ -15,6 +15,10 @@
 		F5C48DF52151D97F007FC99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C48DF32151D97F007FC99F /* LaunchScreen.storyboard */; };
 		F5C48E002151D97F007FC99F /* TagsAndProductListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C48DFF2151D97F007FC99F /* TagsAndProductListTests.swift */; };
 		F5C48E0B2151D97F007FC99F /* TagsAndProductListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C48E0A2151D97F007FC99F /* TagsAndProductListUITests.swift */; };
+		F5C48E192151DC12007FC99F /* TagListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C48E182151DC12007FC99F /* TagListTableViewCell.swift */; };
+		F5F56B2A215695C70018F18E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F56B29215695C70018F18E /* Product.swift */; };
+		F5F56B2E2156BA040018F18E /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F56B2D2156BA040018F18E /* ProductsViewController.swift */; };
+		F5F56B302156BBAA0018F18E /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F56B2F2156BBAA0018F18E /* ProductListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		F5C48E062151D97F007FC99F /* TagsAndProductListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagsAndProductListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C48E0A2151D97F007FC99F /* TagsAndProductListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsAndProductListUITests.swift; sourceTree = "<group>"; };
 		F5C48E0C2151D97F007FC99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C48E182151DC12007FC99F /* TagListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListTableViewCell.swift; sourceTree = "<group>"; };
+		F5F56B29215695C70018F18E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F5F56B2D2156BA040018F18E /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		F5F56B2F2156BBAA0018F18E /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				F5C48DE72151D97D007FC99F /* AppDelegate.swift */,
 				F5C48DE92151D97D007FC99F /* ViewController.swift */,
+				F5C48E182151DC12007FC99F /* TagListTableViewCell.swift */,
+				F5F56B2D2156BA040018F18E /* ProductsViewController.swift */,
+				F5F56B2F2156BBAA0018F18E /* ProductListTableViewCell.swift */,
 				F5C48DEB2151D97D007FC99F /* Main.storyboard */,
 				F5C48DF12151D97F007FC99F /* Assets.xcassets */,
 				F5C48DF32151D97F007FC99F /* LaunchScreen.storyboard */,
 				F5C48DF62151D97F007FC99F /* Info.plist */,
 				F5C48DEE2151D97D007FC99F /* TagsAndProductList.xcdatamodeld */,
+				F5F56B29215695C70018F18E /* Product.swift */,
 			);
 			path = TagsAndProductList;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C48E192151DC12007FC99F /* TagListTableViewCell.swift in Sources */,
+				F5F56B302156BBAA0018F18E /* ProductListTableViewCell.swift in Sources */,
 				F5C48DEA2151D97D007FC99F /* ViewController.swift in Sources */,
+				F5F56B2E2156BA040018F18E /* ProductsViewController.swift in Sources */,
+				F5F56B2A215695C70018F18E /* Product.swift in Sources */,
 				F5C48DF02151D97D007FC99F /* TagsAndProductList.xcdatamodeld in Sources */,
 				F5C48DE82151D97D007FC99F /* AppDelegate.swift in Sources */,
 			);
